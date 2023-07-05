@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css'
 
 function App() {
-  const serverUrl = 'http://gowtham.ap-south-1.elasticbeanstalk.com/'
+  const serverUrl = 'https://gowtham.ap-south-1.elasticbeanstalk.com/'
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [users, setUsers] = useState([]);
