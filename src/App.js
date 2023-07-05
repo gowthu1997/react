@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css'
 
 function App() {
-  const serverUrl = 'http://gowtham.ap-south-1.elasticbeanstalk.com/'
+  const serverUrl = 'http://localhost:8000/'
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [users, setUsers] = useState([]);
@@ -54,7 +54,7 @@ function App() {
         />
         <button type="submit">Submit</button>
         {success &&
-          <img width='20%' src="https://d14ddp45jwqlzn.cloudfront.net/success.png" alt="" />
+          <img width='20%' src="https://drkhixjw9meqb.cloudfront.net/success.png" alt="" />
         }
       </form>
       <h2>Users:</h2>
